@@ -8,6 +8,15 @@ cool things with their software.
 - [VirtualBox]()
 - [Coffee](), or your vice of choice.
 
+## Build the Environment
+```
+[local]$: git clone
+[local]$: cd unum-dev-env
+[unum-dev-env]$: vagrant up
+[unum-dev-env]$: vagrant ssh
+[vagrant@stretch]$:
+```
+
 ## Build the World (openWRT)
 Steps for building the whole 'kit-in-kaboodle', i.e. build openWrt and include
 the unum agent.
