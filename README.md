@@ -10,7 +10,7 @@ cool things with their software.
 
 ## Build the Environment
 ```
-[local]$: git clone
+[local]$: git clone https://github.com/lowellmower/unum-dev-env.git
 [local]$: cd unum-dev-env
 [unum-dev-env]$: vagrant up
 [unum-dev-env]$: vagrant ssh
@@ -22,6 +22,7 @@ Steps for building the whole 'kit-in-kaboodle', i.e. build openWrt and include
 the unum agent.
 ```
 # More soon... (20190628)
+vagrant@stretch:~/openwrt-18.06.3$ make
 ```
 
 ## Build the Agent (unum)
